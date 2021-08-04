@@ -1,0 +1,80 @@
+#project-container {
+    height: 200%;
+    background-color: #222229;
+}
+
+#project-title-container {
+    width: 95%;
+    border-bottom: 2px solid white;
+    padding-top: 5rem;
+    margin-top: 10%;
+}
+
+#project-title {
+    font-family: "League-Spartan";
+    color: white;
+    font-size: 3rem;
+    padding: 1rem;
+    padding-top: 1rem;
+    /* opacity: 0; */
+    transition: all 2s ease;
+    will-change: transform, opacity;
+}
+
+#project-title.is-visible {
+    opacity: 1;
+}
+
+#all-projects {
+    /* display: flex; */
+    margin-left: 1rem;
+    margin-right: 1rem;
+    
+}
+
+.project-box{
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 20px;
+    padding: 1rem;
+    margin-top: 2rem;
+    
+    margin-right: auto;
+
+}
+
+.project-box-container {
+    display: flex;
+}
+
+#swift-safe-entry-main-page {
+    height: 20rem;
+    border-radius: 10px;
+    padding-right: 2vw;
+}
+
+#swift-safe-entry-map-page {
+    height: 20rem;
+    border-radius: 10px;
+}
+
+#weather-app-front {
+    height: 20rem;
+    display: block;
+    margin-right: auto;
+
+    padding: 1rem;
+    border-radius: 30px;
+}
+
+.project-para {
+    font-family: "League-Spartan";
+    padding-left: 1vw;
+    font-size: 1rem;
+    text-align: justify;
+    line-height: 150%;
+}
+
+h1 {
+    font-family: "League-Spartan";
+}

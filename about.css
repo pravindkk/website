@@ -1,0 +1,55 @@
+#about-container {
+    height: 100%;
+}
+
+#about-title-container {
+    width: 95%;
+    border-bottom: 2px solid #222229;
+    padding-top: 5rem;
+    /* margin-top: 10%; */
+}
+
+#about-title {
+    font-family: "League-Spartan";
+    color: #222229;
+    font-size: 3rem;
+    padding: 1rem;
+    padding-top: 1rem;
+    /* opacity: 0; */
+    transition: all 2s ease;
+    will-change: transform, opacity;
+}
+
+#about-title.is-visible {
+    opacity: 1;
+}
+
+#about-para-container {
+    display: flex;
+}
+
+#about-para {
+    font-family: "League-Spartan";
+    font-size: 1.2rem;
+    color: #222229;
+    padding: 3rem;
+    /* opacity: 0; */
+    transition: all 2s ease;
+    will-change: opacity;
+}
+
+#about-para.is-visible {
+    opacity: 1;
+}
+
+#about-img {
+    padding: 2rem;
+    /* opacity: 0; */
+    transition: all 2s ease;
+    will-change: opacity;
+    height: 30rem;
+}
+
+#about-img.is-visible {
+    opacity: 1;
+}

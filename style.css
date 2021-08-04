@@ -1,0 +1,146 @@
+@font-face {
+    font-family: "League-Spartan";
+    src: url("./assets/font/LeagueSpartan-Bold.otf");
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+}
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+#main-container {
+    font-family: "League-Spartan";
+    color: white;
+    background-color: #222229;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    
+}
+
+#social-bar {
+    position: absolute;
+    top: 50%;
+    right: 0px;
+    margin: -100px 0 0 -125px;
+    margin-right: 0.5rem;
+}
+
+#main-title {
+    margin-left: 1rem;
+}
+
+#title-hello {
+    font-size: 10rem;
+    margin-bottom: 0px;
+    color: white;
+}
+
+#title-im {
+    font-size: 3rem;
+    margin: 0px;
+    margin-bottom: 0.5rem;
+    color: white;
+}
+
+#title-name {
+    font-size: 10rem;
+    margin: 0px;
+    color: transparent;
+    background-image: linear-gradient(to left, #2ecc71, #3498db, #9b59b6, #f39c12);
+    -webkit-background-clip: text;
+    animation: gradient 5s linear infinite;
+    -webkit-background-size: 500%;
+    background-size: 500%;
+
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 100%;
+    }
+    50% {
+        background-position: 100% 0%;
+    }
+    100% {
+        background-position: 0% 100%;
+    }
+}
+
+#main-navbar {
+    padding: 1rem;
+}
+
+#nav {
+    position: absolute;
+    right: 0px;
+    display: flex;
+    margin-right: 3rem;
+    list-style-type: none;
+    color: gray;
+}
+
+li {
+    padding-left: 3rem;
+}
+
+
+.navbar_section {
+    text-decoration: none;
+    color: gray;
+}
+
+.social-icon {
+    display: block;
+    height: 2.5rem;
+    width: 2.5rem;
+    padding-top: 1.5rem;
+}
+
+/* skills portion */
+
+
+
+
+
+@media only screen and (max-width:720px) {
+    /* For mobile phones: */
+    #main-container {
+        font-family: "League-Spartan";
+        color: white;
+        background-color: #222229;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        
+    }
+
+    #title-hello, #title-name {
+      font-size: 4rem;
+    }
+
+    #title-im {
+        font-size: 3.5rem;
+    }
+
+    #main-title {
+        position: absolute;
+        top: 20%;
+    }
+
+    
+}
+
+
